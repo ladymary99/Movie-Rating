@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Success</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="result-container">
+      <h1>Thank you!</h1>
+      <p><strong>Movie:</strong> <%= submission.movie %></p>
+      <p><strong>Rating:</strong> <%= submission.rating %></p>
+
+      <h2>All Submissions:</h2>
+      <ul>
+        <% submissions.forEach(s => { %>
+        <li><%= s.movie %> — Rating: <%= s.rating %></li>
+        <% }) %>
+      </ul>
+
+      <a href="/">Submit another movie</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background-color: #ace5e9;
+  padding: 20px;
+}
+.form-container,
+.result-container {
+  color: #ace5e9;
+  background: #204f6e;
+  padding: 50px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+  display: block;
+  margin: 10px;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+button {
+  margin-top: 15px;
+  padding: 10px;
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
